@@ -1,5 +1,5 @@
 # Website settings
-title: Akshay
+title: Home
 description: Akshay Siwal Resume.
 keywords: Akshay,Akshay Siwal,blog,SRE,devops,adobe
 baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
@@ -14,7 +14,7 @@ author:  # change following line to your infomation.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: AkshaySiwal  # Leave blank if you don't have now
   linkedin_id: akshay-siwal-4b08b916 # Leave blank if you don't have now
-  facebook_username: akshay231990@gmail.com  # Leave blank if you don't have now
+  facebook_username: akshay.siwal.5  # Leave blank if you don't have now
   twitter_username: akshaysiwal  # Leave blank if you don't have now
   email: akshay231990@gmail.com  # Leave blank if you don't have now
   cv: http://cv.akshaysiwal.com  # An online CV can be printed as PDF, leave blank if you don't have now
