@@ -23,7 +23,6 @@
   img: /static/assets/img/landing/newrelic.png
   desc: This is another project.  
  
- 
 - name: SaltStack Rundeck
   i18n: saltstack
   #url: https://google.com
@@ -31,8 +30,7 @@
   repo: Rundeck
   img: /static/assets/img/landing/rundeck.png
   desc: This is another project.
-  
-   
+     
 - name: WebDriverJS
   i18n: webdriverjs
   #url: https://google.com
@@ -41,4 +39,9 @@
   img: /static/assets/img/landing/webdriver.png
   desc: This is another project.
   
- 
+- name: Nagios
+  i18n: ansible
+  gh_user: akshaysiwal
+  repo: Ansible-Nagios-with-Graphs
+  img: /static/assets/img/landing/nagios.jpg
+  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
