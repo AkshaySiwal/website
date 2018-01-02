@@ -1,29 +1,43 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
+    detail: Adobe Systems
     i18n: company_a
   desc:
-    detail: I worked at Company A ...
+    detail: Responsible for Reliability and Avalablity of Infrastructure on AWS, Azure and in Data Center. 
     i18n: company_a_desc
   date:
-    detail: Apr. 2016
+    detail: Jun. 2016
     i18n: company_a_date
   job:
-    detail: CTO
+    detail: Site Reliability Engineer / DevOps
     i18n: company_a_job
   icon: fa-plus-square
 
 - name:
-    detail: Company B
+    detail: Radcom
     i18n: company_b
   desc:
-    detail: I worked at Company B ...
+    detail: I was responsible for Automation and in-house tool development along with System Administration for CentOS, Oracle, Nagios installation and plugin development.
     i18n: company_b_desc
   date:
-    detail: Jun. 2015
+    detail: Feb. 2014
     i18n: company_b_date
   job:
-    detail: Full Stack Developer
+    detail: Automation Engineer
     i18n: company_b_job
+  icon: fa-plus-square
+
+- name:
+    detail: Orange Business Services
+    i18n: company_c
+  desc:
+    detail: Part of Application Lifecycle Management team for AirTel Interactive Voice Response project.
+    i18n: company_c_desc
+  date:
+    detail: Oct. 2012
+    i18n: company_c_date
+  job:
+    detail: Technical Consultant
+    i18n: company_c_job
   icon: fa-plus-square
