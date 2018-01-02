@@ -1,18 +1,30 @@
 # links section data
-- last_name: Name 1
-  first_name:
-  desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
+- last_name: Cohen
+  first_name: Moshe
+  desc: Director (Support WW)
+  website: https://www.radcom.com
+  email: MosheC@radcom.com
 
-- last_name: Donate
-  first_name: Jalpc
-  desc: Support Jalpc
-  website: http://www.jarrekk.com/donate/
-  email: me@jarrekk.com
+- last_name: Swarankar
+  first_name: Vikash
+  desc: Tech Consultant Global Contact Center
+  website: https://www.linkedin.com/in/vikash-swarankar-3a6795b9/
+  email: vikasappoo2001@gmail.com 
 
-- last_name: LN
-  first_name: FN
-  desc: COO
-  website: https://github.com
-  email: coo@google.com
+- last_name: Tripathi
+  first_name: Kumud
+  desc: Senior SI Engineer
+  website: https://www.linkedin.com/in/kumudtripathi/
+  email: kumud.tripathi@gmail.com
+
+- last_name: Narayan Dixit
+  first_name: Laxmi
+  desc: Software Engineer
+  website: https://www.linkedin.com/in/kumudtripathi/
+  email: lalitdixit2@gmail.com 
+  
+- last_name: Gupta
+  first_name: Anuj
+  desc: Site Reliability Engineer
+  website: https://www.linkedin.com/in/anuj-gupta-b4a4b735/
+  email: anujgup@adobe.com
