@@ -26,7 +26,7 @@
   job:
     detail: Automation Engineer
     i18n: company_b_job
-  icon: fa-barcode
+  icon: fa-id-card
 
 - name:
     detail: Orange Business Services
@@ -40,7 +40,7 @@
   job:
     detail: Technical Consultant
     i18n: company_c_job
-  icon: fa-corp
+  icon: fa-id-badge
 
 
 - name:
@@ -58,6 +58,21 @@
   icon: fa-book
   
 - name:
+    detail: Diploma Embedded System
+    i18n: company_f
+  desc:
+    detail: 1 year diploma in Network Security from MicroSoft IT Academy
+    i18n: company_f_desc
+  date:
+    detail: Jul. 2012
+    i18n: company_f_date
+  job:
+    detail: Student
+    i18n: company_f_job
+  icon: fa-book
+
+  
+- name:
     detail: Diploma Network Security
     i18n: company_e
   desc:
@@ -72,16 +87,3 @@
   icon: fa-book
   
   
-- name:
-    detail: Diploma Embedded System
-    i18n: company_f
-  desc:
-    detail: 1 year diploma in Network Security from MicroSoft IT Academy
-    i18n: company_f_desc
-  date:
-    detail: Jul. 2012
-    i18n: company_f_date
-  job:
-    detail: Student
-    i18n: company_f_job
-  icon: fa-book
