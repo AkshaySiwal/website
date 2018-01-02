@@ -57,7 +57,7 @@
     i18n: company_d_job
   icon: fa-book
   
- - name:
+- name:
     detail: Diploma Network Security
     i18n: company_e
   desc:
@@ -72,7 +72,7 @@
   icon: fa-book
   
   
-  - name:
+- name:
     detail: Diploma Embedded System
     i18n: company_f
   desc:
