@@ -21,17 +21,9 @@
   gh_user: akshaysiwal
   repo: SlatStack-runner-for-NewRelic-Synthetic-Monitoring
   img: /static/assets/img/landing/newrelic.png
-  desc: This is another project.
-
-- name: SaltStack Rundeck
-  i18n: saltstack
-  #url: https://google.com
-  gh_user: akshaysiwal
-  repo: Rundeck
-  img: /static/assets/img/landing/saltstack.png
-  desc: This is another project.
-  
-  
+  desc: This is another project.  
+ 
+ 
 - name: SaltStack Rundeck
   i18n: saltstack
   #url: https://google.com
@@ -41,12 +33,12 @@
   desc: This is another project.
   
    
-- name: SaltStack Rundeck
-  i18n: saltstack
+- name: WebDriverJS
+  i18n: webdriverjs
   #url: https://google.com
   gh_user: akshaysiwal
   repo: Automatic-Job-Apply-on-naukri.com
-  img: /static/assets/img/landing/webdriver.png
+  img: /static/assets/img/landing/webdriver.jpeg
   desc: This is another project.
   
  
