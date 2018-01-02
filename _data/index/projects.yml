@@ -32,7 +32,7 @@
   desc: This is another project.
   
   
- - name: SaltStack Rundeck
+- name: SaltStack Rundeck
   i18n: saltstack
   #url: https://google.com
   gh_user: akshaysiwal
@@ -41,7 +41,7 @@
   desc: This is another project.
   
    
- - name: SaltStack Rundeck
+- name: SaltStack Rundeck
   i18n: saltstack
   #url: https://google.com
   gh_user: akshaysiwal
