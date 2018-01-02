@@ -24,9 +24,9 @@ author:  # change following line to your infomation.
     - name: fa-linux
   skill_icon2:
     - name: fa-linux
-    - name: icon-apache
+    - name: icon-aws
   skill_icon3:
-    - name: fa-aws
+    - name: icon-aws
     - name: icon-python
   desc: Hi. Introduce myself will be here.  # Describe yourself.
 
