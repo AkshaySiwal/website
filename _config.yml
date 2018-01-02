@@ -23,6 +23,7 @@ author:  # change following line to your infomation.
     - name: icon-apache
     - name: fa-linux
   skill_icon2:
+    - name: icon-python
     - name: fa-linux
     - name: icon-aws
   skill_icon3:
