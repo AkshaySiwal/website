@@ -1,6 +1,21 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: WebDriverJS
+  i18n: webdriverjs
+  gh_user: akshaysiwal
+  repo: Automatic-Job-Apply-on-naukri.com
+  img: /static/assets/img/landing/webdriver.png
+  desc: This is another project.
+  
+  
+- name: Nagios
+  i18n: ansible
+  gh_user: akshaysiwal
+  repo: Ansible-Nagios-with-Graphs
+  img: /static/assets/img/landing/nagios.jpg
+  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+
 - name: SaltStack NewRelic Synthetic Monitoring
   i18n: saltstack
   gh_user: akshaysiwal
