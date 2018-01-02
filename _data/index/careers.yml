@@ -44,7 +44,7 @@
 
 
 - name:
-    detail: (4 years Degree) Bachelor of Technology
+    detail: Bachelor of Technology (4 years) 
     i18n: company_d
   desc:
     detail: B.Tech in Electronics and Telecommunication Engineering from Bharati vidyapeeth college of engineering, Pune
@@ -58,7 +58,7 @@
   icon: fa-book
   
 - name:
-    detail: (1 year) Diploma Embedded System
+    detail: Diploma Embedded System (1 year)
     i18n: company_f
   desc:
     detail: 1 year diploma in Network Security from MicroSoft IT Academy
@@ -73,7 +73,7 @@
 
   
 - name:
-    detail: (3 years) Diploma Network Security
+    detail: Diploma Network Security (3 years)
     i18n: company_e
   desc:
     detail: 3 years diploma in Network Security from Bharati vidyapeeth college of engineering, Pune
