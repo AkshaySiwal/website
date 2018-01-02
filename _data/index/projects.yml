@@ -1,6 +1,20 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: SaltStack NewRelic Synthetic Monitoring
+  i18n: saltstack
+  gh_user: akshaysiwal
+  repo: SatStack-runner-for-NewRelic-Synthetic-Monitoring
+  img: /static/assets/img/landing/newrelic.png
+  desc: This is another project.  
+
+- name: SaltStack Rundeck
+  i18n: saltstack
+  gh_user: akshaysiwal
+  repo: Rundeck
+  img: /static/assets/img/landing/rundeck.png
+  desc: This is another project.
+  
 - name: Ansible-playbook for Nagios with Graphs
   i18n: ansible
   gh_user: akshaysiwal
