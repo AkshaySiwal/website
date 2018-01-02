@@ -1,22 +1,52 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
+- name: Ansible-playbook for Nagios with Graphs
+  i18n: ansible
+  gh_user: akshaysiwal
+  repo: Ansible-Nagios-with-Graphs
+  img: /static/assets/img/landing/Ansible.png
   desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
+- name: Vagrant Sandbox
+  i18n: vagrant
+  gh_user: akshaysiwal
+  repo: Vagrant-Sandbox-for-flask-app-with-https
+  img: /static/assets/img/landing/vagrant.png
   desc: This project is other's project. I use another request to get repo's information.
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
+- name: SlatStack NewRelic Synthetic Monitoring
+  i18n: newrelic
+  #url: https://google.com
+  gh_user: akshaysiwal
+  repo: SlatStack-runner-for-NewRelic-Synthetic-Monitoring
+  img: /static/assets/img/landing/newrelic.png
   desc: This is another project.
+
+- name: SaltStack Rundeck
+  i18n: saltstack
+  #url: https://google.com
+  gh_user: akshaysiwal
+  repo: Rundeck
+  img: /static/assets/img/landing/saltstack.png
+  desc: This is another project.
+  
+  
+ - name: SaltStack Rundeck
+  i18n: saltstack
+  #url: https://google.com
+  gh_user: akshaysiwal
+  repo: Rundeck
+  img: /static/assets/img/landing/rundeck.png
+  desc: This is another project.
+  
+   
+ - name: SaltStack Rundeck
+  i18n: saltstack
+  #url: https://google.com
+  gh_user: akshaysiwal
+  repo: Automatic-Job-Apply-on-naukri.com
+  img: /static/assets/img/landing/webdriver.png
+  desc: This is another project.
+  
+ 
