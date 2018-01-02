@@ -11,7 +11,7 @@ author:  # change following line to your infomation.
   name: Akshay Siwal  # Be used at blog posts' author.
   first_name: Akshay  # Be used at index page about me section.
   last_name: Siwal  # Be used at index page about me section.
-  avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
+  avatar: /static/assets/img/landing/avatar.png  # upload your avatar at directory and edit it.
   github_username: AkshaySiwal  # Leave blank if you don't have now
   linkedin_id: akshay-siwal-4b08b916 # Leave blank if you don't have now
   facebook_username: akshay.siwal.5  # Leave blank if you don't have now
