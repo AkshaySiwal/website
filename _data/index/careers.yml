@@ -26,7 +26,7 @@
   job:
     detail: Automation Engineer
     i18n: company_b_job
-  icon: fa-id-card
+  icon: fa-code
 
 - name:
     detail: Orange Business Services
@@ -44,7 +44,7 @@
 
 
 - name:
-    detail: Bachelor of Technology
+    detail: (4 years Degree) Bachelor of Technology
     i18n: company_d
   desc:
     detail: B.Tech in Electronics and Telecommunication Engineering from Bharati vidyapeeth college of engineering, Pune
@@ -58,7 +58,7 @@
   icon: fa-book
   
 - name:
-    detail: Diploma Embedded System
+    detail: (1 year) Diploma Embedded System
     i18n: company_f
   desc:
     detail: 1 year diploma in Network Security from MicroSoft IT Academy
@@ -73,7 +73,7 @@
 
   
 - name:
-    detail: Diploma Network Security
+    detail: (3 years) Diploma Network Security
     i18n: company_e
   desc:
     detail: 3 years diploma in Network Security from Bharati vidyapeeth college of engineering, Pune
