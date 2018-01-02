@@ -14,33 +14,3 @@
   repo: Vagrant-Sandbox-for-flask-app-with-https
   img: /static/assets/img/landing/vagrant.png
   desc: This project is other's project. I use another request to get repo's information.
-
-- name: SaltStack NewRelic Synthetic Monitoring
-  i18n: saltstack
-  gh_user: akshaysiwal
-  repo: SatStack-runner-for-NewRelic-Synthetic-Monitoring
-  img: /static/assets/img/landing/newrelic.png
-  desc: This is another project.  
-
-- name: SaltStack Rundeck
-  i18n: saltstack
-  gh_user: akshaysiwal
-  repo: Rundeck
-  img: /static/assets/img/landing/rundeck.png
-  desc: This is another project.
- 
-- name: WebDriverJS
-  i18n: webdriverjs
-  gh_user: akshaysiwal
-  repo: Automatic-Job-Apply-on-naukri.com
-  img: /static/assets/img/landing/webdriver.png
-  desc: This is another project.
-  
-  
-- name: Nagios
-  i18n: ansible
-  gh_user: akshaysiwal
-  repo: Ansible-Nagios-with-Graphs
-  img: /static/assets/img/landing/nagios.jpg
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
-
