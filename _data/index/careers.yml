@@ -12,7 +12,7 @@
   job:
     detail: Site Reliability Engineer / DevOps
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-cloud
 
 - name:
     detail: Radcom
@@ -26,7 +26,7 @@
   job:
     detail: Automation Engineer
     i18n: company_b_job
-  icon: fa-plus-square
+  icon: fa-barcode
 
 - name:
     detail: Orange Business Services
@@ -40,4 +40,48 @@
   job:
     detail: Technical Consultant
     i18n: company_c_job
-  icon: fa-plus-square
+  icon: fa-corp
+
+
+- name:
+    detail: Bachelor of Technology
+    i18n: company_d
+  desc:
+    detail: B.Tech in Electronics and Telecommunication Engineering from Bharati vidyapeeth college of engineering, Pune
+    i18n: company_d_desc
+  date:
+    detail: Aug. 2012
+    i18n: company_d_date
+  job:
+    detail: Student
+    i18n: company_d_job
+  icon: fa-book
+  
+ - name:
+    detail: Diploma Network Security
+    i18n: company_e
+  desc:
+    detail: 3 years diploma in Network Security from Bharati vidyapeeth college of engineering, Pune
+    i18n: company_e_desc
+  date:
+    detail: Aug. 2011
+    i18n: company_e_date
+  job:
+    detail: Student
+    i18n: company_e_job
+  icon: fa-book
+  
+  
+  - name:
+    detail: Diploma Embedded System
+    i18n: company_f
+  desc:
+    detail: 1 year diploma in Network Security from MicroSoft IT Academy
+    i18n: company_f_desc
+  date:
+    detail: Jul. 2012
+    i18n: company_f_date
+  job:
+    detail: Student
+    i18n: company_f_job
+  icon: fa-book
