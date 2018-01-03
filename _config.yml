@@ -28,8 +28,6 @@ author:  # change following line to your infomation.
     - name: icon-python
     - name: icon-aws
     - name: icon-azure
-    - name: icon-hadoop
- 
    
  
   desc: Hi. Introduce myself will be here.  # Describe yourself.
