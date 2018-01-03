@@ -19,7 +19,7 @@ permalink: /donate/
         <div class="col-sm-8 col-sm-offset-2">
             <h2 class="text-center m">Paytm</h2>
             <div class="slick">
-                {% for alipay in site.data.donation.paytm %}
+                {% for alipay in site.data.donation.paytma %}
                 <div>
                     <div class="ibox-content">
                         <img src="{{ alipay.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
@@ -31,9 +31,9 @@ permalink: /donate/
     </div>
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-            <h2 class="text-center m">WeChat Pay</h2>
+            <h2 class="text-center m">Paytm</h2>
             <div class="slick">
-                {% for wechat in site.data.donation.wechat_pay %}
+                {% for wechat in site.data.donation.paytm %}
                 <div>
                     <div class="ibox-content">
                         <img src="{{ wechat.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
