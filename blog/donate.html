@@ -19,7 +19,7 @@ permalink: /donate/
         <div class="col-sm-8 col-sm-offset-2">
             <h2 class="text-center m">Paytm</h2>
             <div class="slick">
-                {% for alipay in site.data.donation.paytma %}
+                {% for alipay in site.data.donation.paytm %}
                 <div>
                     <div class="ibox-content">
                         <img src="{{ alipay.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
@@ -44,7 +44,7 @@ permalink: /donate/
         </div>
     </div>
     <div class="row">
-        {% for donation in site.data.donation.donationlist %}
+        {% for donation in site.data.donation.paytm %}
         {% assign loopindex = forloop.index | modulo: 2 %}
         <div class="col-sm-4 {% if loopindex == 1 %}col-sm-offset-2{% endif %}">
             <div class="contact-box" style="height: 200px;">
