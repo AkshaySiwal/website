@@ -23,10 +23,8 @@ author:  # change following line to your infomation.
     - name: icon-apache
     - name: fa-linux
     - name: icon-centos   
-    - name: icon-redhat
-    - name: icon-redis   
+    - name: icon-redhat  
     - name: icon-mysql
-    - name: icon-cloud
     - name: icon-mongodb
     
   skill_icon2:
@@ -35,9 +33,8 @@ author:  # change following line to your infomation.
     - name: icon-aws
     - name: icon-azure
     - name: icon-hadoop
-    - name: icon-git
     - name: icon-script
-    - name: icon-nodejs
+    
    
  
   desc: Hi. Introduce myself will be here.  # Describe yourself.
