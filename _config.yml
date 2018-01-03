@@ -29,7 +29,6 @@ author:  # change following line to your infomation.
     
   skill_icon2:
     - name: icon-python
-    - name: fa-linux
     - name: icon-aws
     - name: icon-azure
     - name: icon-hadoop
