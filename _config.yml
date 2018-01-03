@@ -17,13 +17,12 @@ author:  # change following line to your infomation.
   facebook_username: akshay.siwal.5  # Leave blank if you don't have now
   #twitter_username: akshaysiwal  # Leave blank if you don't have now
   email: akshay231990@gmail.com  # Leave blank if you don't have now
-  cv: /static/assets/resume/Akshay-Resume.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
+  cv: cv.akshaysiwal.com  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
     - name: fa-linux
     - name: icon-centos   
     - name: icon-redhat  
-    - name: icon-mysql
     - name: icon-mongodb
     
   skill_icon2:
