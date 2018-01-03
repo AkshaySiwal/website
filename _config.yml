@@ -31,7 +31,12 @@ author:  # change following line to your infomation.
     - name: icon-azure
     - name: icon-hadoop
 
-    
+  skill_icon3:
+    - name: icon-python
+    - name: icon-aws
+    - name: icon-azure
+    - name: icon-hadoop
+ 
    
  
   desc: Hi. Introduce myself will be here.  # Describe yourself.
