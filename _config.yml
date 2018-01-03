@@ -24,7 +24,7 @@ author:  # change following line to your infomation.
     - name: fa-linux
     - name: icon-centos
     - name: icon-shell
-    - name: icon-redha
+    - name: icon-redhat
     - name: icon-redis
     - name: icon-oracle
     - name: icon-nginx
@@ -40,6 +40,10 @@ author:  # change following line to your infomation.
     - name: icon-python
     - name: icon-hadoop
     - name: icon-git
+    - name: icon-script
+    - name: icon-nodejs
+    - name: icon-docker
+    - name: icon-book
   desc: Hi. Introduce myself will be here.  # Describe yourself.
 
 # comment
