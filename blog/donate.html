@@ -19,15 +19,15 @@ permalink: /donate/
     </div>
     <br><br>
     <div class="row">
-        <div>
-                <dev>
-                     <img src="/static/assets/img/donate/paytm.jpg" alt="Paytm" height="60px" align="middle">
-                </div>
+        <div class="col-sm-8 col-sm-offset-2">
+               
+                     <img src="/static/assets/img/donate/paytm.jpg" alt="Paytm" height="60px">
+                
             <br><br>
             <div align="center">
                 {% for paytm in site.data.donation.paytm %}
                 <div>
-                    <div class="ibox-content">
+                    <div>
                         <img src="{{ paytm.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="300"  height="300">
                     </div>
                 </div>
