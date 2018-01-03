@@ -15,17 +15,18 @@ permalink: /donate/
 
 <div class="wrapper wrapper-content animated pulse">
     <div class="row">
-        <a href="http://paypal.me/c" target="_blank" style="height: 35px;display: block;text-align: center;"><h2><i class="fa fa-paypal"></i>Paypal</h2></a>
+        <a href="http://paypal.me/e" target="_blank" style="height: 35px;display: block;text-align: center;"><h2><i class="fa fa-paypal"></i>Paypal</h2></a>
     </div>
     <br><br>
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <h2 class="text-center m">Paytm</h2>
+            <img src="/static/assets/img/donate/paytm.png" alt="Smiley face" width="30" height="30">
             <div>
                 {% for paytm in site.data.donation.paytm %}
                 <div>
                     <div class="ibox-content">
-                        <img src="{{ paytm.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
+                        <img src="{{ paytm.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%"  height="300">
                     </div>
                 </div>
                 {% endfor %}
