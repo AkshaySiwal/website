@@ -1,6 +1,6 @@
 # Website settings
 title: Home
-description: Akshay Siwal Resume.
+description: Akshay Siwal
 keywords: Akshay,Akshay Siwal,blog,SRE,devops,adobe
 baseurl:  / # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: http://www.akshaysiwal.com  # url should be 'http://<github_username>.github.io/homepage' as before
