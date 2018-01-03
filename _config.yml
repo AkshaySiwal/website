@@ -22,12 +22,10 @@ author:  # change following line to your infomation.
   skill_icon1:
     - name: fa-linux
     - name: icon-centos     
-    - name: icon-mongodb
     
   skill_icon2:
     - name: icon-python
     - name: icon-aws
-    - name: icon-azure
    
  
   desc: Hi. Introduce myself will be here.  # Describe yourself.
