@@ -16,13 +16,16 @@ permalink: /donate/
 <div class="wrapper wrapper-content animated pulse">
     <div class="row">
         <a href="http://paypal.me/jarrekk" target="_blank" style="height: 35px;display: block;text-align: center;"><h2><i class="fa fa-paypal"></i>Paypal</h2></a>
+        
+    </div>
+    <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <h2 class="text-center m">Paytm</h2>
             <div class="slick">
-                {% for alipay in site.data.donation.paytm %}
+                {% for paytm in site.data.donation.paytm %}
                 <div>
                     <div class="ibox-content">
-                        <img src="{{ alipay.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
+                        <img src="{{ paytm.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
                     </div>
                 </div>
                 {% endfor %}
@@ -30,21 +33,7 @@ permalink: /donate/
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-            <h2 class="text-center m">Paytm</h2>
-            <div class="slick">
-                {% for wechat in site.data.donation.paytm %}
-                <div>
-                    <div class="ibox-content">
-                        <img src="{{ wechat.name | prepend: '/static/assets/img/donate/' | prepend : site.baseurl }}" width="100%">
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        {% for donation in site.data.donation.paytm %}
+        {% for donation in site.data.donation.donationlist %}
         {% assign loopindex = forloop.index | modulo: 2 %}
         <div class="col-sm-4 {% if loopindex == 1 %}col-sm-offset-2{% endif %}">
             <div class="contact-box" style="height: 200px;">
