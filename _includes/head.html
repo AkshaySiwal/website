@@ -13,9 +13,9 @@
 
   <title>
     {% if page.title != "index" %}
-        {{ site.title }}|{{ page.title }}
+        {{ site.author.name }}|{{ page.title }}
     {% else %}
-        {{ site.title }}
+        {{ site.author.name }}
     {% endif %}
   </title>
   <!-- favicon -->
