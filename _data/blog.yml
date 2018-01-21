@@ -8,6 +8,9 @@
 
 - name: Linux
   href: /linux/
+  
+- name: DevOps
+  href: /devops/
 
 - name: Database
   href: /database/
