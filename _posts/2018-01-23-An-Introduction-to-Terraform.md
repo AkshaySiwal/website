@@ -8,7 +8,7 @@ categories: [Devops]
 tags: [Terraform,Automation,IAC]
 icon: fa-cube
 ---
-
+<img src="{{ site.img_path }}/terraform_intro/2.png" width="20%">
 # **What is [Terraform](https://www.terraform.io/)?** #
 ---
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular cloud service providers as well as custom in-house solutions.
