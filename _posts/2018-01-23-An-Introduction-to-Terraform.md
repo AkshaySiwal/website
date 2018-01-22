@@ -8,7 +8,7 @@ categories: [Devops]
 tags: [Terraform,Automation,IAC]
 icon: fa-cube
 ---
-<img align="right" src="{{ site.img_path }}/terraform_intro/2.png" width="40%" alt="Insatall NodeJs on Windows"/>
+<img align="right" src="{{ site.img_path }}/terraform_intro/2.png" width="10%"/>
 
 # **What is [Terraform](https://www.terraform.io/)?** #
 ---
