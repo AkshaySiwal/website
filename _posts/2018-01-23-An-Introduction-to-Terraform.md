@@ -10,6 +10,8 @@ icon: fa-cube
 ---
 <img align="right" src="{{ site.img_path }}/terraform_intro/2.png" width="10%"/>
 
+
+
 # **What is [Terraform](https://www.terraform.io/)?** #
 ---
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular cloud service providers as well as custom in-house solutions.
