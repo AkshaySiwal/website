@@ -29,7 +29,6 @@ The infrastructure Terraform can manage includes low-level components such as co
 
 * **Change Automation** : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly what Terraform will change and in what order, avoiding many possible human errors.
 
-# 
-#
+<br><br>
 <img src="{{ site.img_path }}/terraform_intro/1.png" width="100%">
 
