@@ -22,6 +22,7 @@ The infrastructure Terraform can manage includes low-level components such as co
 
 * **Dry-Run** : Terraform provides an elegant user experience for operators to safely and predictably make changes to infrastructure. Basically, You can perform dry-runs before making any actual changes.
 
-* **Reusability** : Terraform lets operators easily use the same configurations in multiple places to reduce mistakes and save time.
+* **Reusability** : Terraform lets operators easily use the same configurations in multiple places to reduce mistakes and save time. You can use it for environment parity i.e use the same Terraform configuration to provision identical staging, QA, and production environments.
 
+<img src="{{ site.img_path }}/blogs/terraform_intro/terraform_intro.gif" width="75%">
 
