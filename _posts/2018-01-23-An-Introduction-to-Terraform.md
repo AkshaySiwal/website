@@ -25,6 +25,9 @@ The infrastructure Terraform can manage includes low-level components such as co
 
 * **Reusability** : Terraform lets operators easily use the same configurations in multiple places to reduce mistakes and save time. You can use it for environment parity i.e use the same Terraform configuration to provision identical staging, QA, and production environments.
 
+* **Resource Graph** : Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
+
+* **Change Automation** : Complex changesets can be applied to your infrastructure with minimal human interaction. With the previously mentioned execution plan and resource graph, you know exactly what Terraform will change and in what order, avoiding many possible human errors.
 
 
 <img src="{{ site.img_path }}/terraform_intro/1.png" width="100%">
