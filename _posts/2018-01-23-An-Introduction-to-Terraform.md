@@ -8,8 +8,7 @@ categories: [Devops]
 tags: [Terraform,Automation,IAC]
 icon: fa-cube
 ---
-<img src="{{ site.img_path }}/terraform_intro/2.png" width="20%">
-<a href="https://github.com/AkshaySiwal/Automatic-Job-Apply-on-naukri.com/blob/master/imgs/windows_node_install.png"><img align="right" src="https://github.com/AkshaySiwal/Automatic-Job-Apply-on-naukri.com/blob/master/imgs/windows_node_install.png" width="40%" alt="Insatall NodeJs on Windows"/></a>
+<img align="right" src="{{ site.img_path }}/terraform_intro/2.png" width="40%" alt="Insatall NodeJs on Windows"/>
 
 # **What is [Terraform](https://www.terraform.io/)?** #
 ---
