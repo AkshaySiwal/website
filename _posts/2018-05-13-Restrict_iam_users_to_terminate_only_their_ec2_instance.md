@@ -99,7 +99,7 @@ For a full list of values that you can substitute for policy variables, see Requ
 
 
 <p align="center">
-  <img width="60%" src="https://github.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/blob/master/images/AutoTag_steps.png">
+  <img width="60%" src="/AutoTag_steps.png">
 </p>
 
 ### CloudFormation automation
@@ -109,7 +109,7 @@ This [CloudFormation template][main_scr] creates a Lambda function, and CloudWat
 
 
 <p align="center">
-  <img width="60%" src="https://github.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/blob/master/images/Akshay_Cloud_Formation_v01-designer.png">
+  <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/Akshay_Cloud_Formation_v01-designer.png">
 </p>
 
 ### Test IAM Policy
@@ -117,27 +117,27 @@ After creating a stack with this [CloudFormation template][main_scr] a new IAM G
 
 Now go to EC2 Dashboard and click on show/hide column icon.
 <p align="center">
-  <img width="60%" src="https://github.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/blob/master/images/add_more_headers.png">
+  <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/add_more_headers.png">
 </p>
 
 After clicking on show/hide column icon you will see two new tags **```Owner```** and **```PrincipalId```**, check both of these tags.
 <p align="center">
-  <img width="60%" src="https://github.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/blob/master/images/see_new_headers.png">
+  <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/see_new_headers.png">
 </p>
 
 <p align="center">
-  <img width="60%" src="https://github.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/blob/master/images/after_check_new_headers.png">
+  <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/after_check_new_headers.png">
 </p>
 
 Now you will get to see ```Owner``` and ```PrincipalId``` columns with there respective values under EC2 Dashboard.
 <p align="center">
-  <img width="60%" src="https://github.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/blob/master/images/ins_with_new_headers.png">
+  <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/ins_with_new_headers.png">
 </p>
 
-ANd if you try to Stop/Start/Reboot/Terminate any EC2 Instance which does not belong to you, you will get an error saying **```You are not authorized to perform this operation.```**
+And if you try to Stop/Start/Reboot/Terminate any EC2 Instance which does not belong to you, you will get an error saying **```You are not authorized to perform this operation.```**
 
 <p align="center">
-  <img width="60%" src="https://github.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/blob/master/images/error.png">
+  <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/error.png">
 </p>
 
 <br><br>
