@@ -99,7 +99,7 @@ For a full list of values that you can substitute for policy variables, see Requ
 
 
 <p align="center">
-  <img width="60%" src="/AutoTag_steps.png">
+  <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/AutoTag_steps.png">
 </p>
 
 ### CloudFormation automation
