@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Restrict iam users to terminate only their EC2 instance"
+title:  "Resource level permissions for EC2 Instances"
 date:   2018-05-13
 desc:   "Restrict iam users to terminate only their EC2 instance"
 keywords: "aws,cloud,easy,cloudformation,ec2,ec2tags,tags,iam,lambda,cloudwatch,cloudtrail,rolebased,rolebasespermissions,ec2permissions,permissions,ec2policy,siwal,adobe,radcom,orange,automation"
@@ -15,6 +15,7 @@ Access to manage Amazon EC2 instances can be controlled using tags. You can do t
 
 I have used a combination of an Amazon CloudWatch Events rule and AWS Lambda to tag newly created instances. With this solution, your users do not need to have permissions to create tags ```ec2:createTags```, ```ec2:deleteTags``` because the Lambda function will have the permissions to tag the instances. The solution can be automatically deployed in the region of your choice with this [AWS CloudFormation][main_scr].
 
+<br><br>
 ### IAM Policy
 ```
 {
@@ -91,6 +92,7 @@ For a full list of values that you can substitute for policy variables, see Requ
 
 **```RestrictUsersFromCreatingDeletingTags```** applies a deny condition on actions ```ec2:DeleteTags```, ```ec2:CreateTags```.
 
+<br><br>
 ### Tag automation
 **1.** The IAM user has EC2 rights to launch an EC2 instance. Regardless of how the user creates the EC2 instance (with the AWS Management Console or AWS CLI), he performs a RunInstances API call.     **->**     **2.** CloudWatch Events records this activity.     **->**     **3.** A CloudWatch Events rule targets a Lambda function called AutoTag and it invokes the function with the event details. The event details contain the information about the user that completed the action (this information is retrieved automatically from AWS CloudTrail, which must be on for CloudWatch Events to work).     **->**     **4.** The Lambda function AutoTag scans the event details, and extracts all the possible resource IDs as well as the user’s identity     **->**     **5.** The function applies two tags to the created resources :
 
@@ -102,6 +104,7 @@ For a full list of values that you can substitute for policy variables, see Requ
   <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/AutoTag_steps.png">
 </p>
 
+<br><br>
 ### CloudFormation automation
 This [CloudFormation template][main_scr] creates a Lambda function, and CloudWatch Events trigger that function in the region you choose. Lambda permissions to describe and tag EC2 resources are obtained from an IAM role the template creates along with the function. The template also creates an IAM group into which you can place your user to enforce the behavior described in this blog post. The template also creates a customer managed policy so that you can easily apply it to other IAM entities, such as IAM roles or other existing IAM groups.
 
@@ -112,6 +115,7 @@ This [CloudFormation template][main_scr] creates a Lambda function, and CloudWat
   <img width="60%" src="{{ site.img_path }}/ec2_rolebased_policy/Akshay_Cloud_Formation_v01-designer.png">
 </p>
 
+<br><br>
 ### Test IAM Policy
 After creating a stack with this [CloudFormation template][main_scr] a new IAM Group **```IAM_Group_To_Manage_EC2_Instances_v01```**  will get created with required policies, make users part of this group and create an EC2 instance with one such user to test it.
 
@@ -150,7 +154,8 @@ And if you try to Stop/Start/Reboot/Terminate any EC2 Instance which does not be
 - [References 4][r4]
 - [References 5][r5]
 
-
+<br><br>
+<br><br>
 
 ## Getting Help
 
