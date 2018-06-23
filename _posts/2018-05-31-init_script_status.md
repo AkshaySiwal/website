@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A short note on init scripts exit codes"
+title:  "A short note on init script exit codes"
 date:   2018-06-24
 desc:   "init script exit code"
 keywords: "aws,cloud,easy,cloudformation,uname,kernel,kernel,iam,lambda,initrdram,initrd,rolebased,rolebasespermissions,ec2permissions,permissions,ec2policy,siwal,adobe,radcom,orange,automation"
