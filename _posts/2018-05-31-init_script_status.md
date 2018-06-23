@@ -25,7 +25,7 @@ If the **status** action is requested, the init script will return the following
 - **150-199**	reserved for application use
 - **200-254**	reserved
 
-
+<br><br>
 ```
 service <your service> start 
 #or
