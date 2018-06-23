@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "Linux StatUp script exit status codes"
+title:  "A short note on init scripts exit codes"
 date:   2018-06-24
-desc:   "Test01"
+desc:   "init script exit code"
 keywords: "aws,cloud,easy,cloudformation,uname,kernel,kernel,iam,lambda,initrdram,initrd,rolebased,rolebasespermissions,ec2permissions,permissions,ec2policy,siwal,adobe,radcom,orange,automation"
 categories: [Linux]
 tags: [Init,Startup,Linux,Unix,Redhat,CentOS]
 icon: fa-linux
 ---
 
-# **A short note on init scripts exit codes**
 
 ```
 service <your service> status
@@ -34,7 +33,7 @@ service <your service> stop
 ```
 
 
-In case of an error while processing any init-script action **except for status**, the init script shall print an error message and exit with a non-zero status code:
+In case of an error, while processing any init-script action **except for status**, the init script shall print an error message and exit with a non-zero status code:
 
 - **1**	generic or unspecified error (current practice)
 - **2**	invalid or excess argument(s)
