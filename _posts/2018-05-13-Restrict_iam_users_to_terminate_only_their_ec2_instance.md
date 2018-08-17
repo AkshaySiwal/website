@@ -107,7 +107,7 @@ For a full list of values that you can substitute for policy variables, see Requ
 <br><br>
 ### CloudFormation automation
 This [CloudFormation template][main_scr] creates a Lambda function, and CloudWatch Events trigger that function in the region you choose. Lambda permissions to describe and tag EC2 resources are obtained from an IAM role the template creates along with the function. The template also creates an IAM group into which you can place your user to enforce the behavior described in this blog post. The template also creates a customer managed policy so that you can easily apply it to other IAM entities, such as IAM roles or other existing IAM groups.
-<br>
+<br><br>
 ### Terraform automation
 This [Terraform][main_scr_2] does the same thing as of CloudFormation automation.
 
