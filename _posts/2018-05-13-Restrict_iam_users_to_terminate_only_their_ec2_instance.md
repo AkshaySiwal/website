@@ -3,9 +3,9 @@ layout: post
 title:  "Resource level permissions for EC2 Instances"
 date:   2018-05-13
 desc:   "Restrict iam users to terminate only their EC2 instance"
-keywords: "aws,cloud,easy,cloudformation,ec2,ec2tags,tags,iam,lambda,cloudwatch,cloudtrail,rolebased,rolebasespermissions,ec2permissions,permissions,ec2policy,siwal,adobe,radcom,orange,automation"
+keywords: "aws,cloud,easy,cloudformation,terraform,ec2,ec2tags,tags,iam,lambda,cloudwatch,cloudtrail,rolebased,rolebasespermissions,ec2permissions,permissions,ec2policy,siwal,adobe,radcom,orange,automation"
 categories: [Devops]
-tags: [EC2Tags,RoleBasesPermissions,IAM]
+tags: [EC2Tags,RoleBasesPermissions,IAM,Terraform,CloudFormation,AWS,EC2]
 icon: fa-cloud
 ---
 # Restrict IAM Users to Terminate/Start/Stop/Reboot only their EC2 Instances
@@ -13,7 +13,7 @@ This repo will help you create IAM policies to control users start, stop, reboot
 
 Access to manage Amazon EC2 instances can be controlled using tags. You can do this by writing an Identity and Access Management (IAM) policy that grants users permissions to manage EC2 instances that have a specific tag. However, if you also give users permissions to create or delete tags, users can manipulate the values of the tags to gain access and manage additional instances.
 
-I have used a combination of an Amazon CloudWatch Events rule and AWS Lambda to tag newly created instances. With this solution, your users do not need to have permissions to create tags ```ec2:createTags```, ```ec2:deleteTags``` because the Lambda function will have the permissions to tag the instances. The solution can be automatically deployed in the region of your choice with this [AWS CloudFormation][main_scr].
+I have used a combination of an Amazon CloudWatch Events rule and AWS Lambda to tag newly created instances. With this solution, your users do not need to have permissions to create tags ```ec2:createTags```, ```ec2:deleteTags``` because the Lambda function will have the permissions to tag the instances. The solution can be automatically deployed in the region of your choice with this [AWS CloudFormation][main_scr] or [Terraform][main_scr_2].
 
 <br><br>
 ### IAM Policy
@@ -107,6 +107,10 @@ For a full list of values that you can substitute for policy variables, see Requ
 <br><br>
 ### CloudFormation automation
 This [CloudFormation template][main_scr] creates a Lambda function, and CloudWatch Events trigger that function in the region you choose. Lambda permissions to describe and tag EC2 resources are obtained from an IAM role the template creates along with the function. The template also creates an IAM group into which you can place your user to enforce the behavior described in this blog post. The template also creates a customer managed policy so that you can easily apply it to other IAM entities, such as IAM roles or other existing IAM groups.
+<br>
+### Terraform automation
+This [Terraform][main_scr_2] does the same thing as of CloudFormation automation.
+
 
 >**Note** : Currently, CloudWatch Events is available in [six regions][cloudwatch], and Lambda is available in [five regions][lambda]. Keep in mind that you can only use this post’s solution in regions where both CloudWatch Events and Lambda are available. As these services grow, you will be able to launch the same template in other regions as well.
 
@@ -117,7 +121,7 @@ This [CloudFormation template][main_scr] creates a Lambda function, and CloudWat
 
 <br><br>
 ### Test IAM Policy
-After creating a stack with this [CloudFormation template][main_scr] a new IAM Group **```IAM_Group_To_Manage_EC2_Instances_v01```**  will get created with required policies, make users part of this group and create an EC2 instance with one such user to test it.
+After creating a stack with this [CloudFormation template][main_scr] or [Terraform][main_scr_2] a new IAM Group **```IAM_Group_To_Manage_EC2_Instances_v01```**  will get created with required policies, make users part of this group and create an EC2 instance with one such user to test it.
 
 Now go to EC2 Dashboard and click on show/hide column icon.
 <p align="center">
@@ -168,6 +172,7 @@ For any help feel free to contact me on [LinkedIn][linkedin-url] or [Facebook][f
 [facebook-url]: https://www.facebook.com/akshay.siwal.5
 [linkedin-url]: https://www.linkedin.com/in/akshay-siwal-4b08b916/
 [main_scr]: https://raw.githubusercontent.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/master/CloudFormation_template/Akshay_Cloud_Formation_v01.json
+[main_scr_2]: https://raw.githubusercontent.com/AkshaySiwal/Restrict_iam_users_to_terminate_only_their_ec2_instances/master/Terraform_template/Akshay_terraform.tf
 [cloudwatch]:https://docs.aws.amazon.com/general/latest/gr/rande.html#cwe_region
 [lambda]:https://docs.aws.amazon.com/general/latest/gr/rande.html#lambda_region
 [r1]:https://aws.amazon.com/blogs/security/resource-level-permissions-for-ec2-controlling-management-access-on-specific-instances/
